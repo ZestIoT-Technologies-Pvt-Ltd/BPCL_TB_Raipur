@@ -1,6 +1,6 @@
 {
-	"camera1":"rtsp://172.20.4.24/av0_0",
-	"camera2":"rtsp://172.20.4.25/ch01.264",
+	"camera1":"rtsp://192.168.1.21/av0_0",
+	"camera2":"rtsp://192.168.1.51/ch01.264",
 	"first_check":"09:00:00",
 	"last_check":"11:00:00",
 	"Port1":8097,
@@ -10,6 +10,8 @@
 	"Dalert_frame":3,
 	"Palert_frame":3,
 	"Malert_frame":3,
+	"reset_time":240,
+	"net_file":"/home/smartcow/BPCL/BPCL_final/net_event.txt",
 	"event_file":"/home/smartcow/BPCL/BPCL_final/last_event.txt",
 	"error_file":"/home/smartcow/BPCL/BPCL_final/error_file.txt",
 	"gpu_path":"/media/smartcow/LFS/video_storage/",

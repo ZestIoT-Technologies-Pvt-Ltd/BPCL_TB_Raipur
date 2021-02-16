@@ -9,7 +9,7 @@ class Config(object):
     FILE_DIR = '/home/smartcow/BPCL/BPCL_final/client/files'
     #KEY_PAIR = os.path.join(FILE_DIR, 'key_pair.pem')
     CA_CERT = os.path.join(FILE_DIR, 'ca.crt')
-    SOCKET_URL = 'tls+tcp://172.20.4.21:55555'
+    SOCKET_URL = 'tls+tcp://192.168.1.201:55555'
 
 class ClientSocket:
     """
